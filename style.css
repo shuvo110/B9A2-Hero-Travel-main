@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    /* max-width: 1400px;
+    margin: 0px auto; */
+    font-family: "Mulish";
+}
+
+/* nav code start */
+/* nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    border: 1px solid red;
+    margin:0px auto;
+}
+.img-text-nav{
+    display: flex;
+    align-items: center;
+}
+.img-text-nav h2{
+    font-size:35px;
+    margin-left: 15px;
+}
+.img-text-nav h2 .text-color{
+    color: #ff0303fb;
+    font-style: italic;
+}
+nav .link a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left:20px;
+}
+nav a:nth-child(1){
+    color: rgba(255, 0, 157, 0.863);
+} */
+
+/* header code start */
+header{
+    max-width: 1200px;
+    margin:50px auto;
+    background-image: linear-gradient(180deg, #131318cc 0%, #13131800 100%), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 80vh;
+}
+.text{
+    color: white;
+    margin: auto;
+    padding-top:90px;
+    text-align: center;
+    width: 50%;
+}
+.text h2{
+    font-size:3rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+header .from-input .one{
+    display: flex;
+    border: 2px dotted black ;
+    background: #99959586;
+    width:57%;
+    margin-top:80px;
+    margin-left: 200px;
+    align-items: center;
+    padding:25px 13px ;
+    border-radius: 8px;
+}
+
+
+
+/* select-icon code start */
+header .from-input .one .select-icon{
+    position: relative;
+
+}
+header .from-input .one .icon-select{
+    position: absolute;
+    top:12px;
+    right:15px;
+}
+/* select-icon code stop */
+
+/* when icon code start */
+header .from-input .one .when-icon{
+    position: relative;
+}
+header .from-input .one .icon-when{
+    position: absolute;
+    top:12px;
+    right:15px;
+
+}
+/* when icon code stop */
+
+header .from-input .one input{
+    width: 100px;
+    height:10px;
+    padding:15px 25px ;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+header .from-input .btn{
+    padding:13px 20px 13px 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(233, 59, 15); 
+}
+header .from-input .search{
+    position: relative;
+    top: 0px;
+    right:115px;
+}
+
+
+@media screen and (max-width:590px){
+    /* nav .link a{
+       display: block;
+       transition: all 0.9s ease;
+    }
+    #checkbox:checked ~ .link{
+        right: 0%;
+    }
+    #checkbox:checked ~ .menu-ber i::before{
+        content:"\f00d";
+    } */
+
+    /* header section code start */
+    header{
+        height:100%;
+    }
+    .text{
+        padding-top:20px;
+        text-align: center;
+        width:80%;
+    }
+    .text h2{
+        font-size:2rem;
+    }
+
+    header .from-input .one{
+        flex-direction: column;
+        margin-left: 0px;
+        margin:20px auto;
+        padding: 15px 40px 0px 10px;
+    }
+    header .from-input .one input{
+        width:70%;
+        height:10px;
+        margin-bottom:30px;
+    }
+    header .from-input .btn{
+        margin-left:40px;
+    }
+
+
+}
