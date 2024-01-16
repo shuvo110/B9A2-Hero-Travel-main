@@ -832,10 +832,11 @@ footer {
 
     /* 1st section code start  */
     .text-img {
-        margin: auto;
-        width: 95%;
-        display: flex;
-        gap: 50px;
+        flex-direction: column;
+    }
+    .text-img img {
+        width: 100%;
+
     }
 
     .text-img h2 {
