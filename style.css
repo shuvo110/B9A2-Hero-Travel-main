@@ -153,7 +153,7 @@ main{
     margin-left:50px;
     
 }
-.text-img .next{
+.next{
     margin-top: 20px;
     padding:15px 30px;
     background-color: #fd7310f8;
@@ -207,10 +207,10 @@ main{
     width: 95%;
     margin: 60px auto;
 }
-.card-text .titel{
+.titel{
     text-align:center;
 }
-.card-text .titel p{
+.titel p{
     margin-bottom:70px;
    
 }
@@ -233,10 +233,10 @@ main{
     margin:15px 0px;
 }
 .card-text .card .one:nth-child(1){
-    background-color: rgba(184, 135, 11, 0.37);
+    background-color: rgba(184, 135, 11, 0.11);
 }
 .card-text .card .one:nth-child(2){
-    background-color: rgba(24, 58, 207, 0.267);
+    background-color: rgba(24, 58, 207, 0.075);
 }
 
 .card-text .There{
@@ -244,7 +244,7 @@ main{
     padding: 10px 5px 20px 15px;
     border-radius: 10px;
     margin:0px auto;
-    background-color: rgba(255, 140, 0, 0.185);
+    background-color: rgba(255, 140, 0, 0.062);
 }
 .card-text .There i{
     font-size:5rem;
@@ -256,6 +256,157 @@ main{
     margin:15px 0px;
 }
 
+
+/* 4rd section code start  */
+.Swming-pul{
+    background-image: url(Images/swimming-pool.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:95%;
+    height:80vh;
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    margin:10px auto 40px auto;
+    
+}
+.card-swming{
+    position: relative;
+    top:80px;
+    left:530px;
+    width:40%;
+    background-color: #fcfcfcd5;
+    padding: 20px 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    
+}
+.icon-txt{
+    display: flex;
+    align-items: center;
+}
+.icon-txt .icon-day{
+    display: flex;
+    align-items: center;
+    margin-right:25px;
+}
+.icon-txt .icon-day i, h4{
+    color: rgb(141, 8, 230);
+}
+.icon-txt p{
+    margin-left:5px;
+    color: rgba(0, 0, 0, 0.705);
+
+}
+p{
+    margin: 15px 0px;
+}
+
+.price-color{
+    color: coral;
+    font-size: 25px;
+}
+
+/*card-swming -two  */
+.card-swming-two{
+    position: relative;
+    top:80px;
+    left:100px;
+    width:40%;
+    background-color: #fcfcfcd5;
+    padding: 20px 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    
+}
+
+
+/* 5rd section code start  */
+
+.vide-text{
+    width: 95%;
+    margin:30px auto;
+    display: flex;
+    gap: 40px;
+}
+
+.text-div h3{
+    font-size:2.5rem;
+    font-weight: 600px;
+}
+.text-div ul li{
+    margin-left: 30px;
+    font-weight: 800;
+    line-height: 25px;
+}
+.vide-text video{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.103);
+}
+
+
+/* 6rd section code start from and img  */
+.from-img{
+    width: 95%;
+    display: flex;
+    margin:150px auto 10px auto;
+    justify-content: space-between;
+    
+}
+.from-img  .intop h3{
+    color: black;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.from-img  .intop p{
+    color: rgba(0, 0, 0, 0.637);
+    border-bottom: 1px solid #00000071;
+    padding: 10px 0px 30px 0px;
+    margin-bottom:30px;
+}
+.from-img .intop{
+    max-width: 30%;
+    border:1px solid #f002c8;
+    border-radius: 8px;
+    padding:30px 30px ;
+
+}
+.from-img  .intop input{
+    padding:15px 0px;
+    display: block;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    border-radius: 5px;
+    border: none;
+    background: #0000002c;
+}
+.from-img  .intop input::placeholder{
+    padding-left: 30px;
+}
+.from-img  .intop .submit-btn{
+    background: rgb(240, 2, 200);
+}
+
+
+.from-img .img-logo{
+    position: relative;
+}
+.from-img .img-logo .text-offer{
+    color: white;
+    position: absolute;
+    right:15px;
+    bottom:40px;
+    transform: rotate(-22.628deg);
+    padding:35px 30px;
+    text-align: center;
+    background-color: rgba(223, 4, 4, 0.671);
+    border-radius:8px 8px 0px 0px;
+
+}
 
 
 
@@ -337,6 +488,47 @@ main{
         width:95%;
     }
 
+    /* 4rd section code start  */
+    .card-swming{
+        top:170px;
+        left:25px;
+        width:70%;
+    }
+    .icon-txt .icon-day{
+        flex-direction: column;
+        margin-right:10px;
+    }
+    .card-swming-two{
+        top:170px;
+        left:25px;
+        width:70%;
+    }
+    .Swming-pul{
+        height:130vh;
+
+    }
+
+
+    /* 5rd section code start vide and text */
+    .vide-text{
+        flex-direction: column;
+    }
+
+
+    /* 6rd section code start from and img */
+    .from-img{
+        flex-direction: column;
+        /* width: 95%;
+        display: flex; */
+    }
+    .from-img .intop{
+        max-width:95%;
+        padding:30px 60px ;
+        margin-bottom:50px;
+    }
+    .from-img .img-logo img{
+        width: 100%;
+    }
 
 
 }
@@ -409,6 +601,26 @@ main{
     }
     .card-text .There{
         width:95%;
+    }
+
+    /* 4rd section code start */
+    .card-swming{
+        top:170px;
+        left:50px;
+        width:70%;
+    }
+    .icon-txt .icon-day{
+        flex-direction: column;
+        margin-right:10px;
+    }
+    .card-swming-two{
+        top:170px;
+        left:50px;
+        width:70%;
+    }
+    .Swming-pul{
+        height:150vh;
+
     }
 
 }
